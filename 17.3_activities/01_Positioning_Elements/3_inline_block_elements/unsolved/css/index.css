@@ -5,6 +5,37 @@ nav {
 
 /* target the class of inline-block below */
 
+.inline-block{
+  display:inline-block;
+  padding:15px;
+}
+
 /* target the class of .left below */
 
+.left {
+height: 500px;
+float: left;
+background-color:lightskyblue;
+width:30%;
+
+}
+
 /* target the class of .right below */
+
+.right {
+height: 500px;
+float: left;
+background-color:lightcoral;
+width:70%;
+text-align: center;
+}
+
+
+.card {
+  display:inline-block;
+  background-color: lightgoldenrodyellow;
+  border-radius:5px;
+  height:200 px;
+  width:150px;
+  margin:50px 35px 35px 35px;
+}
